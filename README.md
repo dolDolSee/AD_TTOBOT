@@ -1,4 +1,4 @@
-# TempCheck part of AITMBOT
+# AITMBOT
 
 ### Category
 - deepLearning model train & inference & video detection & Temperature Check & Speak
