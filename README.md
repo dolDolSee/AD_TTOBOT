@@ -1,28 +1,25 @@
-# AITMBOT
-
-### Category
+## Category
 - deepLearning model train & inference & video detection & Temperature Check & Speak
 - Turtlebot driving through reinforcement learning
 
-### 알고리즘
+## Algorithms
 - MobilNet
 - SSD
 - Q-learning
 - feedback
 
-### 환경
+## Enviroments
 - coral
 - IOT
 - ubuntu
 
-### 작동
-0. 강화학습을 통한 주행을 이용해 장애물을 회피하며 이동
-1. 광각카메라를 통한 실시간 얼굴인식
-2. 얼굴인식 완료시 화상카메라 가동
-3. 광각카메라의 좌표데이터 송신 및 전처리 후 온도 영역 추출
-4. 화상카메라 온도 체크
-5. 일정 온도 이상시 경고 출력
+## Operatino Steps
+0. The Turtlebot moves while avoding obstacles, the moving algorithm is based on Q-Learning
+1. While the robot moves, the pantoscopic camera reconize the human face. the face detection is based on the MobileNet, SSD
+2. If the robot detects the face, the thermal camera will be activated
+3. The thermal camera extracts the area of temperature by giving the coordinate from the pantoscopic camera
+4. The thermal camera confirms the thermal
+5. if the temperature increase beyond a certain degree, the sound device will issue a warning.
 
-### 성과
-1. 한이음 컨테스트 장려상
-2. 정보처리학회 논문 제출
+## Paper
+1. This project was accepted at the korea information processing society(KIPS)
