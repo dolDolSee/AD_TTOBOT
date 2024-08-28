@@ -21,4 +21,7 @@
 5. If the temperature increase beyond a certain degree, the sound device will issue a warning.
 
 ## Paper
-1. This project was accepted at the korea information processing society(KIPS)
+1. This project was accepted at the korea information processing society(KIPS)[Link](https://koreascience.kr/article/CFKO202133649145998.pdf)
+
+## Experiment video
+- [Link](https://www.youtube.com/watch?v=3ffW_pX7fl8)
