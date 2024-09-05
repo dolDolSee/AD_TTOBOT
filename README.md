@@ -12,7 +12,7 @@
 - IOT
 - Ubuntu
 
-## Operatino Steps
+## Operation Steps
 0. The Turtlebot moves while avoding obstacles, the moving algorithm is based on Q-Learning
 1. While the robot moves, the pantoscopic camera reconize the human face. the face detection is based on the MobileNet, SSD
 2. If the robot detects the face, the thermal camera will be activated
@@ -21,7 +21,7 @@
 5. If the temperature increase beyond a certain degree, the sound device will issue a warning.
 
 ## Paper
-1. This project was accepted at the korea information processing society(KIPS)[Link](https://koreascience.kr/article/CFKO202133649145998.pdf)
+1. This project is accepted at the korea information processing society(KIPS)[Link](https://koreascience.kr/article/CFKO202133649145998.pdf)
 
 ## Experiment video
 - [Link](https://www.youtube.com/watch?v=3ffW_pX7fl8)
